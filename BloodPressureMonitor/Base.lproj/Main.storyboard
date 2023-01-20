@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="BPMViewController" customModule="BloodPressureMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4m4-od-gG2">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9l-Re-75f">
+                                <rect key="frame" x="86" y="123" width="218" height="191"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="160"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2VF-f8-491">
+                                <rect key="frame" x="86" y="366" width="218" height="191"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="160"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9rg-Fd-167">
+                                <rect key="frame" x="87" y="619" width="216" height="191"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="160"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Nk-xa-jR0">
+                                <rect key="frame" x="159" y="59" width="72" height="40.666666666666657"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="MAP">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="34"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gei-EQ-RHQ">
+                                <rect key="frame" x="137" y="394" width="116" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Systolic">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="34"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="750" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dcn-td-JSE">
+                                <rect key="frame" x="131" y="645" width="128" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Diastolic">
+                                        <attributes>
+                                            <font key="NSFont" metaFont="system" size="34"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <integer key="NSUnderline" value="1"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="1GJ-yG-HBm"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2Nk-xa-jR0" firstAttribute="centerX" secondItem="L9l-Re-75f" secondAttribute="centerX" id="0eC-L7-nDL"/>
+                            <constraint firstItem="Dcn-td-JSE" firstAttribute="leading" secondItem="1GJ-yG-HBm" secondAttribute="leading" constant="131" id="19e-xp-lXL"/>
+                            <constraint firstItem="gei-EQ-RHQ" firstAttribute="top" secondItem="L9l-Re-75f" secondAttribute="bottom" constant="80" id="7l7-9m-5sK"/>
+                            <constraint firstItem="Dcn-td-JSE" firstAttribute="top" secondItem="2VF-f8-491" secondAttribute="bottom" constant="88" id="D97-aZ-gKg"/>
+                            <constraint firstItem="2Nk-xa-jR0" firstAttribute="centerX" secondItem="Dcn-td-JSE" secondAttribute="centerX" id="Eip-I7-7WW"/>
+                            <constraint firstItem="2VF-f8-491" firstAttribute="top" secondItem="L9l-Re-75f" secondAttribute="bottom" constant="52" id="FmQ-Dg-XyB"/>
+                            <constraint firstItem="2VF-f8-491" firstAttribute="leading" secondItem="L9l-Re-75f" secondAttribute="leading" id="KCy-Vu-y3B"/>
+                            <constraint firstItem="2Nk-xa-jR0" firstAttribute="centerX" secondItem="2VF-f8-491" secondAttribute="centerX" id="OO5-mP-iaR"/>
+                            <constraint firstItem="2Nk-xa-jR0" firstAttribute="top" secondItem="1GJ-yG-HBm" secondAttribute="top" constant="12" id="Osw-FS-vXM"/>
+                            <constraint firstItem="2Nk-xa-jR0" firstAttribute="centerX" secondItem="4m4-od-gG2" secondAttribute="centerX" id="Rgb-kJ-euM"/>
+                            <constraint firstItem="2Nk-xa-jR0" firstAttribute="centerX" secondItem="gei-EQ-RHQ" secondAttribute="centerX" id="SVT-bk-99o"/>
+                            <constraint firstItem="2Nk-xa-jR0" firstAttribute="leading" secondItem="1GJ-yG-HBm" secondAttribute="leading" constant="159" id="aFZ-o5-7Rf"/>
+                            <constraint firstItem="L9l-Re-75f" firstAttribute="top" secondItem="2Nk-xa-jR0" secondAttribute="bottom" constant="23.333333333333343" id="eEq-OV-LlU"/>
+                            <constraint firstItem="gei-EQ-RHQ" firstAttribute="leading" secondItem="1GJ-yG-HBm" secondAttribute="leading" constant="137" id="kET-35-arE"/>
+                            <constraint firstItem="9rg-Fd-167" firstAttribute="leading" secondItem="1GJ-yG-HBm" secondAttribute="leading" constant="87" id="nzz-yE-kaB"/>
+                            <constraint firstItem="9rg-Fd-167" firstAttribute="centerX" secondItem="4m4-od-gG2" secondAttribute="centerX" id="oh5-no-I3x"/>
+                            <constraint firstItem="2VF-f8-491" firstAttribute="leading" secondItem="1GJ-yG-HBm" secondAttribute="leading" constant="86" id="v7C-IK-60d"/>
+                            <constraint firstItem="9rg-Fd-167" firstAttribute="top" secondItem="2VF-f8-491" secondAttribute="bottom" constant="62" id="zpV-Yy-j2O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="diastolicLabel" destination="9rg-Fd-167" id="BlL-ix-GWL"/>
+                        <outlet property="meanArterialPressureLabel" destination="L9l-Re-75f" id="74r-Kq-tpe"/>
+                        <outlet property="systolicLabel" destination="2VF-f8-491" id="bz5-22-O2s"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="130.76923076923077" y="-28.436018957345969"/>
+        </scene>
+    </scenes>
+</document>
